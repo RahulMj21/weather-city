@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{>links}}
+  <title>Your City's Weather</title>
+</head>
+<body>
+  {{>header}}
+    <section class="hero">
+      <main class="grid-container">
+        <div class="left">
+          <p class="headline">Rahul weather brodcast</p>
+          <p class="text">Now you can get your city's <span>weather</span> in just a few moment. And it is very easy to use.</p>
+          <button class="btn"><a href="/weather">Get Weather</a></button>
+        </div>
+        <div class="right">
+          <div class="slide-container">
+          <div class="slides">
+            <div class="slide" id="slide1">
+              <img src="./images/bg1.jpg" alt="image">
+            </div>
+            <div class="slide" id="slide2">
+              <img src="./images/bg2.jpg" alt="image">
+            </div>
+            <div class="slide" id="slide3">
+              <img src="./images/bg3.png" alt="image">
+            </div>
+          </div>
+        </div>
+        </div>
+      </main>
+    </section>
+    {{>footer}}
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
