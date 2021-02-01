@@ -68,7 +68,7 @@ async function showData(e) {
       const data = await res.json();
       const arrData = [data];
 
-      // console.log(arrData[0].weather[0].main)
+      console.log(arrData[0].weather[0].main)
       
       temp.innerText = `${arrData[0].main.temp}°C`;
       city.innerText = `${arrData[0].name},${arrData[0].sys.country}`;
